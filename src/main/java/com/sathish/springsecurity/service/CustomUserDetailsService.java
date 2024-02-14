@@ -1,4 +1,4 @@
-package com.sathish.springsecuritydemo.springsecuriy.service;
+package com.sathish.springsecurity.service;
 
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -11,8 +11,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.sathish.springsecuritydemo.springsecuriy.entity.User;
-import com.sathish.springsecuritydemo.springsecuriy.repository.UserRepository;
+import com.sathish.springsecurity.entity.User;
+import com.sathish.springsecurity.repository.UserRepository;
 
 @Service
 public class CustomUserDetailsService implements UserDetailsService{

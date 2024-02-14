@@ -1,4 +1,4 @@
-package com.sathish.springsecuritydemo.springsecuriy.controller;
+package com.sathish.springsecurity.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sathish.springsecuritydemo.springsecuriy.dto.JwtAuthResponse;
-import com.sathish.springsecuritydemo.springsecuriy.dto.LoginDto;
-import com.sathish.springsecuritydemo.springsecuriy.dto.RegisterDto;
-import com.sathish.springsecuritydemo.springsecuriy.service.AuthService;
+import com.sathish.springsecurity.dto.JwtAuthResponse;
+import com.sathish.springsecurity.dto.LoginDto;
+import com.sathish.springsecurity.dto.RegisterDto;
+import com.sathish.springsecurity.service.AuthService;
 
 @RestController
 @RequestMapping("/api/auth")

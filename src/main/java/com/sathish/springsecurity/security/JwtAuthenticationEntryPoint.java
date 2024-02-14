@@ -1,4 +1,4 @@
-package com.sathish.springsecuritydemo.springsecuriy.security;
+package com.sathish.springsecurity.security;
 
 
 import java.io.IOException;

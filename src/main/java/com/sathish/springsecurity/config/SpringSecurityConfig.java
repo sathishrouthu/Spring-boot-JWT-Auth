@@ -1,4 +1,4 @@
-package com.sathish.springsecuritydemo.springsecuriy.config;
+package com.sathish.springsecurity.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,8 +14,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.sathish.springsecuritydemo.springsecuriy.security.JwtAuthenticationEntryPoint;
-import com.sathish.springsecuritydemo.springsecuriy.security.JwtAuthenticationFilter;
+import com.sathish.springsecurity.security.JwtAuthenticationEntryPoint;
+import com.sathish.springsecurity.security.JwtAuthenticationFilter;
 
 @Configuration
 @EnableMethodSecurity

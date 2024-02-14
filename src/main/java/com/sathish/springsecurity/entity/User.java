@@ -1,4 +1,4 @@
-package com.sathish.springsecuritydemo.springsecuriy.entity;
+package com.sathish.springsecurity.entity;
 
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package com.sathish.springsecuritydemo.springsecuriy.service;
+package com.sathish.springsecurity.service;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -10,13 +10,13 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.sathish.springsecuritydemo.springsecuriy.dto.LoginDto;
-import com.sathish.springsecuritydemo.springsecuriy.dto.RegisterDto;
-import com.sathish.springsecuritydemo.springsecuriy.entity.Role;
-import com.sathish.springsecuritydemo.springsecuriy.entity.User;
-import com.sathish.springsecuritydemo.springsecuriy.repository.RoleRepository;
-import com.sathish.springsecuritydemo.springsecuriy.repository.UserRepository;
-import com.sathish.springsecuritydemo.springsecuriy.security.JwtTokenProvider;
+import com.sathish.springsecurity.dto.LoginDto;
+import com.sathish.springsecurity.dto.RegisterDto;
+import com.sathish.springsecurity.entity.Role;
+import com.sathish.springsecurity.entity.User;
+import com.sathish.springsecurity.repository.RoleRepository;
+import com.sathish.springsecurity.repository.UserRepository;
+import com.sathish.springsecurity.security.JwtTokenProvider;
 
 @Service
 public class AuthServiceImpl implements AuthService {

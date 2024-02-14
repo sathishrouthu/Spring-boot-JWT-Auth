@@ -1,10 +1,10 @@
-package com.sathish.springsecuritydemo.springsecuriy.repository;
+package com.sathish.springsecurity.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.sathish.springsecuritydemo.springsecuriy.entity.User;
+import com.sathish.springsecurity.entity.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 

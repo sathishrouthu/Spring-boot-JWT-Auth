@@ -1,4 +1,4 @@
-package com.sathish.springsecuritydemo.springsecuriy.dto;
+package com.sathish.springsecurity.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

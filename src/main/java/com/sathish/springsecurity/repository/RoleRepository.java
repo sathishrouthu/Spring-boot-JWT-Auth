@@ -1,10 +1,10 @@
-package com.sathish.springsecuritydemo.springsecuriy.repository;
+package com.sathish.springsecurity.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.sathish.springsecuritydemo.springsecuriy.entity.Role;
+import com.sathish.springsecurity.entity.Role;
 
 public interface RoleRepository extends JpaRepository<Role, Long> {
     Optional<Role> findByName(String name);
